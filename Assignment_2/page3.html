@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Selection</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #57a2ff, #c2a2ff);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .sub-header {
+            background: linear-gradient(to right, #6d7cb3, #d85aff);
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .menu button {
+            background: #33ff66;
+            color: #000;
+            border: none;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .menu button:hover {
+            background: #28cc55;
+        }
+        .back-button {
+            background: linear-gradient(to bottom, #ffcc33, #a06d00);
+            color: black;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background: #ffb300;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Welcome [user-name]</div>
+        <div class="sub-header">You pick what you want to eat? We make this just for you</div>
+        <div class="menu">
+            <button onclick="location.href='page4.html'">Mushroom Pasta</button>
+            <button onclick="location.href='page5.html'">Roasted Cauliflower</button>
+            <button onclick="location.href='page6.html'">Veggie Cheese Sandwich</button>
+            <button onclick="location.href='page7.html'">Banana Smoothie</button>
+            <button onclick="location.href='page8.html'">Mango Shake</button>
+            <button onclick="location.href='page9.html'">Paneer Tikka</button>
+        </div>
+        <button class="back-button" onclick="location.href='page10.html'">Back</button>
+    </div>
+</body>
+</html>

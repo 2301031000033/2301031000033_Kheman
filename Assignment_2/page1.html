@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recipes Login</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #57a2ff, #c2a2ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: #6d7cb3;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            width: 600px;
+        }
+        .logo {
+            text-align: center;
+            flex: 1;
+        }
+        .logo img {
+            width: 150px;
+            border-radius: 10px;
+        }
+        .login-form {
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        h2 {
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        input {
+            width: 80%;
+            padding: 8px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid white;
+            background: transparent;
+            color: white;
+            font-size: 16px;
+        }
+        input:focus {
+            outline: none;
+            border-bottom: 2px solid #ffcc00;
+        }
+        button {
+            background: #37474f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #263238;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="image1.png" alt="AI Recipes Logo">
+        </div>
+        <div class="login-form">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <br>
+            <button onclick="location.href='page10.html'">Sign-in</button>
+            <br>
+            <button onclick="location.href='page2.html'">Sign-up</button>
+        </div>
+    </div>
+</body>
+</html>
